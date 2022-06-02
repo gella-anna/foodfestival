@@ -1,0 +1,192 @@
+h1  {
+    color: rgb(255, 235, 120);
+    font-size: 35px;
+    text-shadow: 3px 3px #f2955bb0;
+  }
+
+  a:hover{
+
+    color:brown
+
+  }
+
+  p {
+    font-family: arial;
+  }
+  
+  h1{
+    font-family: arial;
+    font-weight: bold;
+  }
+
+  .bodyIndex { 
+    border-color: rgba(54, 52, 48, 0.781);
+    margin: 15px;
+    padding: 20px;
+  }
+
+  img { 
+    height: 220px;
+    margin: 40px;
+    padding: auto;
+    border-color: rgb(255, 193, 69);
+  }
+body {
+ background-image: url('../images/dentalb.jpg');
+ opacity: 0.9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #ffe6bc8b;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(255, 187, 71, 0.741);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgba(255, 163, 65, 0.512);
+  color: rgb(255, 255, 255);
+}
+
+.bold {
+  font-family: bold;
+  font-style: oblique;
+}
+
+#home {
+  color: rgba(254, 221, 104, 0.866);
+  font-style: oblique;
+  padding: 2%;
+}
+
+iframe {
+  border-style: dashed;
+  padding-inline-start: 5%;
+}
+
+button {
+  height: 30px;
+  width: 80px;
+}
+
+p {
+  border-style: hidden;
+    border-color: rgba(255, 209, 83, 0.75);
+    margin: 15px;
+    padding: 20px;
+}
+
+form {
+  border-color: rgb(255, 214, 49);
+  margin-left: 5%;
+}
+
+#reg {
+  font-weight: bold;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  text-shadow: 3px 3px rgba(25, 12, 255, 0.665);
+  color:  #f2955bea;
+}
+
+.containerreg {
+  align-items: stretch;
+  color: rgb(57, 57, 226);
+}
+
+.item {
+    width: 100px;
+    height: 50px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(236, 195, 32);
+}
+
+.flex-container > div {
+  background-color: #abf088cd;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.background {
+    background-image: url(img/backg.jpg);
+    overflow: hidden;
+}
+
+p {
+  text-shadow: 3px 3px rgba(253, 255, 156, 0.8);
+  color:  #f8792a;
+}
+
+.mapouter {
+  margin: 10px;
+  border-style:dotted;
+  border-color: #f8792a;
+}
+
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+h3 {
+  color: #000000a0;
+  text-shadow: 3px 3px rgba(243, 153, 57, 0.878);
+}
